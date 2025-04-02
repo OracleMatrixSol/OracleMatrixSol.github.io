@@ -1,0 +1,43 @@
+<svg width="32" height="32" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="120" cy="120" r="110" fill="#12151E" />
+  
+  <!-- Matrix Grid - Horizontal Lines -->
+  <line x1="50" y1="90" x2="190" y2="90" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.5" />
+  <line x1="50" y1="120" x2="190" y2="120" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.5" />
+  <line x1="50" y1="150" x2="190" y2="150" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.5" />
+  
+  <!-- Matrix Grid - Vertical Lines -->
+  <line x1="90" y1="50" x2="90" y2="190" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.5" />
+  <line x1="120" y1="50" x2="120" y2="190" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.5" />
+  <line x1="150" y1="50" x2="150" y2="190" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1.5" />
+  
+  <!-- Data Points -->
+  <circle cx="90" cy="90" r="6" fill="#FF6B35" />
+  <circle cx="150" cy="90" r="6" fill="#00A676" />
+  <circle cx="90" cy="150" r="6" fill="#00A676" />
+  <circle cx="150" cy="150" r="6" fill="#FF6B35" />
+  
+  <!-- Connection Lines -->
+  <path d="M90,90 L150,90 L150,150 L90,150 Z" fill="none" stroke="url(#logoLineGradient)" stroke-width="2.5" />
+  <path d="M90,90 L150,150" fill="none" stroke="url(#logoLineGradient)" stroke-width="2.5" />
+  <path d="M150,90 L90,150" fill="none" stroke="url(#logoLineGradient)" stroke-width="2.5" />
+  
+  <!-- Oracle Element - Central Eye -->
+  <circle cx="120" cy="120" r="32" fill="url(#logoEyeGradient)" />
+  <circle cx="120" cy="120" r="16" fill="#12151E" />
+  <circle cx="120" cy="120" r="8" fill="#FF6B35" />
+  
+  <!-- Gradient Definitions -->
+  <defs>
+      <linearGradient id="logoEyeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#FF6B35" />
+          <stop offset="100%" stop-color="#00A676" />
+      </linearGradient>
+      
+      <linearGradient id="logoLineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#FF6B35" />
+          <stop offset="100%" stop-color="#00A676" />
+      </linearGradient>
+  </defs>
+</svg>
